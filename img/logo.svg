@@ -1,0 +1,50 @@
+<svg width="448" height="448" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <g id="svg_2">
+    <rect fill="#ff821b" id="svg_3" height="64" width="64.4" y="287.998"/>
+   </g>
+  </g>
+  <g id="svg_4">
+   <g id="svg_5">
+    <rect fill="#ff821b" id="svg_6" height="64" width="64.4" y="111.998"/>
+   </g>
+  </g>
+  <g id="svg_7">
+   <g id="svg_8">
+    <polygon fill="#ff821b" id="svg_9" points="319.858,176 319.858,112 272,112 272,64 240,32 208,63.999 208,80 208,416 272,416 272,352 319.858,352     319.858,288 272,288 272,176   "/>
+   </g>
+  </g>
+  <g id="svg_10">
+   <g id="svg_11">
+    <polygon fill="#ff821b" id="svg_12" points="448,176 448,112 400,112 400,64 368,32 336,63.999 336,80 336,416 400,416 400,352 448,352 448,288 400,288     400,176   "/>
+   </g>
+  </g>
+  <g id="svg_13">
+   <g id="svg_14">
+    <polygon fill="#ff821b" id="svg_15" points="192.12,176 192.12,112 144,112 144,64 112,32 80,63.999 80,80 80,416 144,416 144,352 192.12,352 192.12,288     144,288 144,176   "/>
+   </g>
+  </g>
+  <g id="svg_16"/>
+  <g id="svg_17"/>
+  <g id="svg_18"/>
+  <g id="svg_19"/>
+  <g id="svg_20"/>
+  <g id="svg_21"/>
+  <g id="svg_22"/>
+  <g id="svg_23"/>
+  <g id="svg_24"/>
+  <g id="svg_25"/>
+  <g id="svg_26"/>
+  <g id="svg_27"/>
+  <g id="svg_28"/>
+  <g id="svg_29"/>
+  <g id="svg_30"/>
+ </g>
+</svg>
