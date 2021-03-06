@@ -12,6 +12,11 @@ $(document).ready(function () {
         scrollTop: $(".quiz-block__text").offset().top
     }, 1000);
   });
+  $('.modal-window-select__block').on('click', function() {
+    $('.modal-window-select__block').removeClass('modal-window-select__block_a');
+    $(this).addClass('modal-window-select__block_a');
+    return false;
+  })
   $('.header-phone__link').on('click', function() {
     $(modal).addClass('modal-dark-a');
     $(modal_3).addClass('modal-window-a');
@@ -110,53 +115,73 @@ $(document).ready(function () {
     $(line).removeClass('quiz-content-line-4');
     $(line).removeClass('quiz-content-line-5');
     $(line).removeClass('quiz-content-line-6');
+    $(line).removeClass('quiz-content-line-7');
+    $(line).removeClass('quiz-content-line-8');
     if (slider_counter == 0) {
-      text.innerHTML = 'Вопрос 1 из 6';
+      text.innerHTML = 'Вопрос 1 из 8';
     }
     if (slider_counter == 1) {
       $(line).addClass('quiz-content-line-2');
-      text.innerHTML = 'Вопрос 2 из 6';
+      text.innerHTML = 'Вопрос 2 из 8';
     }
     if (slider_counter == 2) {
       $(line).addClass('quiz-content-line-3');
-      text.innerHTML = 'Вопрос 3 из 6';
+      text.innerHTML = 'Вопрос 3 из 8';
     }
     if (slider_counter == 3) {
       $(line).addClass('quiz-content-line-4');
-      text.innerHTML = 'Вопрос 4 из 6';
+      text.innerHTML = 'Вопрос 4 из 8';
     }
     if (slider_counter == 4) {
       $(line).addClass('quiz-content-line-5');
-      text.innerHTML = 'Вопрос 5 из 6';
+      text.innerHTML = 'Вопрос 5 из 8';
     }
     if (slider_counter == 5) {
       $(line).addClass('quiz-content-line-6');
-      text.innerHTML = 'Вопрос 6 из 6';
+      text.innerHTML = 'Вопрос 6 из 8';
+    }
+    if (slider_counter == 7) {
+      $(line).addClass('quiz-content-line-7');
+      text.innerHTML = 'Вопрос 7 из 8';
+    }
+    if (slider_counter == 8) {
+      $(line).addClass('quiz-content-line-8');
+      text.innerHTML = 'Вопрос 7 из 8';
     }
   })
   $('.quiz-btn').on('click', function() {
     $(button).addClass('quiz-btn__left_a');
+    let slide_last = $('.quiz-content');
     if (slider_counter == 0) {
       $(line).addClass('quiz-content-line-2');
-      text.innerHTML = 'Вопрос 2 из 6';
+      text.innerHTML = 'Вопрос 2 из 8';
     }
     if (slider_counter == 1) {
       $(line).addClass('quiz-content-line-3');
-      text.innerHTML = 'Вопрос 3 из 6';
+      text.innerHTML = 'Вопрос 3 из 8';
     }
     if (slider_counter == 2) {
       $(line).addClass('quiz-content-line-4');
-      text.innerHTML = 'Вопрос 4 из 6';
+      text.innerHTML = 'Вопрос 4 из 8';
     }
     if (slider_counter == 3) {
       $(line).addClass('quiz-content-line-5');
-      text.innerHTML = 'Вопрос 5 из 6';
+      text.innerHTML = 'Вопрос 5 из 8';
     }
     if (slider_counter == 4) {
       $(line).addClass('quiz-content-line-6');
-      text.innerHTML = 'Вопрос 6 из 6';
+      text.innerHTML = 'Вопрос 6 из 8';
     }
-    if (slider_counter != 4) {
+    if (slider_counter == 5) {
+      $(line).addClass('quiz-content-line-7');
+      text.innerHTML = 'Вопрос 7 из 8';
+    }
+    if (slider_counter == 6) {
+      $(line).addClass('quiz-content-line-8');
+      $(slide_last).addClass('quiz-content-last');
+      text.innerHTML = 'Вопрос 8 из 8';
+    }
+    if (slider_counter != 6) {
       slider_counter += 1;
     }
   })
