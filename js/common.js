@@ -7,7 +7,7 @@ $(document).ready(function () {
   let modal_2 = $('.modal-enter');
   let modal_counter = 0;
   let modal_3 = $('.modal-form');
-  $(".header-btn").click(function() {
+  $(".header-btn , .fance-right_btn").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $(".quiz-block__text").offset().top
     }, 1000);
